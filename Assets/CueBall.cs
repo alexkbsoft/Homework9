@@ -9,7 +9,7 @@ public class CueBall : MonoBehaviour
     void Start()
     {
         var rb = GetComponent<Rigidbody>();
-        rb.AddForce(Vector3.forward * 15.0f, ForceMode.Impulse);
+        rb.AddForce(Vector3.forward * 20.0f, ForceMode.Impulse);
     }
 
     // Update is called once per frame
